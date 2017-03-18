@@ -20,7 +20,7 @@ https://github.com/udacity/frontend-nanodegree-feedreader
 
 *Application JavaScript can be found here: js/app.js
 
-*CSS can be found here: css/*.css
+*CSS can be found here: css/
 
 *Jasmine JavaScript and CSS can be found here: jasmine\lib\jasmine-2.1.2
 
