@@ -28,7 +28,7 @@ https://github.com/udacity/frontend-nanodegree-feedreader
 
 ####Setting up my local server:
 --------------
-1.) Clone this repo:
+1. Clone this repo:
 $ git clone https://github.com/christensenmichael0/javascript_testing_with_jasmine.git
 
 2. Serve the application:
