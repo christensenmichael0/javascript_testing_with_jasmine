@@ -27,7 +27,6 @@ $(function() {
 
         function testFeedURL(feedIndex) {
             it('url is defined and not empty', function() {
-                expect(allFeeds[feedIndex].url).toBeDefined();
                 expect(allFeeds[feedIndex].url).toBeTruthy();
                 expect(allFeeds[feedIndex].url.replace(/\s/g,'').length).not.toBe(0);
             });
@@ -45,7 +44,6 @@ $(function() {
 
         function testFeedName(feedIndex) {
             it('name is defined and not empty', function() {
-                expect(allFeeds[feedIndex].name).toBeDefined();
                 expect(allFeeds[feedIndex].name).toBeTruthy();
                 expect(allFeeds[feedIndex].name.replace(/\s/g,'').length).not.toBe(0);
             });
@@ -105,12 +103,12 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 initFeed = $('.feed').html();
-            });
 
             loadFeed(1, function() {
                 newFeed = $('.feed').html();
                 done();
             });
+        });
         });
 
         it('content updates', function() {
